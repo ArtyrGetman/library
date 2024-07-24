@@ -26,6 +26,8 @@ public class LibraryProcessing {
         library.setName(" first library");
         library.setAddress(" ivanova street 23");
 
+        Book firsBook5= new Book();
+
         library.setBook1(firsBook);
         library.setBook2(secondBook);
         library.setMember1(visiter);
