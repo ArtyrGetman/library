@@ -1,3 +1,7 @@
+package models;
+
+import models.Member;
+
 public class Library {
     private String name;
     private String address;

@@ -1,5 +1,9 @@
+package models;
+
+import utils.ErrorsText;
+
 public class Book {
-  private  String tittle;
+    String tittle;
   private  String author;
   private String ISBN;
 

@@ -1,3 +1,5 @@
+package models;
+
 public class Member {
     private String name;
     private int memberId;
@@ -19,6 +21,6 @@ public class Member {
     }
 
     public void printMemberInfo() {
-        System.out.println("Name: " + name + ", Member ID: " + memberId);
+        System.out.println("Name: " + name + ", models.Member ID: " + memberId);
     }
 }

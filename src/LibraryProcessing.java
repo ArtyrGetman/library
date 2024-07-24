@@ -1,3 +1,8 @@
+import models.Book;
+import models.Library;
+import models.Member;
+import services.LibraryManagement;
+
 public class LibraryProcessing {
 
     public static void main(String[] args) {
@@ -8,7 +13,7 @@ public class LibraryProcessing {
         firsBook.setISBN("11234B1");
         Book secondBook = new Book();
         secondBook.setAuthor(" Java Gooru");
-        secondBook.setTittle(" bank secrets");
+        secondBook.setTittle(" Bank secrets");
         secondBook.setISBN("A!A54564");
         Member visiter = new Member();
         visiter.setName("Jon");
