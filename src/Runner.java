@@ -18,7 +18,7 @@ public class Runner {
         String errorTExt = ErrorsText.unknownErrorText;
         System.out.println(errorTExt);
 
-        System.out.println("35");
+        System.out.println("45");
 
 
     }
